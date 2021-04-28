@@ -35,7 +35,7 @@ private static FileWriter gerarSenha() throws IOException{
 	    String[] caracteresEspecial = {"!","@","#","$","%","&","*"};
 	   
 	    System.out.println("Informe o caminho para salvar a senha: ");
-	    //caminhodefault = scanner.next();
+	    caminhodefault = scanner.next();
 	    
 		FileWriter arq = new FileWriter(caminhodefault);
 		PrintWriter gravarArq = new PrintWriter(arq);
